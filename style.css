@@ -20,12 +20,11 @@ body {
     margin-right: -15px;
 }
 
-.row::after { 
+.row::after, .menu::after { 
     content: "";
     display: block;
-    clear: left;
+    clear: both;
 }
-
 
 [class*="col-"] {
     float: left;
@@ -66,7 +65,7 @@ body {
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 21px;
     color: #2c81b8;
 }
